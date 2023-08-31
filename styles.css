@@ -1,0 +1,45 @@
+fieldset {
+  background: #1b1b32;
+  padding: 2em;
+}
+body {
+  color: white;
+  background: rgba(58, 58, 158, 0.8);
+}
+.title,
+.description {
+  text-align: center;
+}
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+label {
+  display: block;
+  margin: 1rem 0;
+}
+.submit {
+  display: block;
+  width: 80%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1rem;
+  background-color: green;
+  border-color: green;
+  min-width: 300px;
+  color: white;
+}
+input,
+textarea {
+  background-color: white;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+textarea {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
